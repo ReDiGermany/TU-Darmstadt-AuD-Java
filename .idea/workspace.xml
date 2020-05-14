@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e75dd22-4001-40b7-b4ea-081dfd65ae77" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="150" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bmF3YMD3qX0oITlp495Mog4ofX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Vorlesung 1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Vorlesung1.Vorlesung1" />
+      <module name="Code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e75dd22-4001-40b7-b4ea-081dfd65ae77" name="Default Changelist" comment="" />
+      <created>1589229163347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589229163347</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="573" y="275" key="#Project_Structure" timestamp="1589229289755">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state x="573" y="275" key="#Project_Structure/0.0.2160.1400@0.0.2160.1400" timestamp="1589229289755" />
+    <state x="536" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589447936767">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state x="536" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1400@0.0.2160.1400" timestamp="1589447936767" />
+    <state x="622" y="313" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1589229399959">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state x="622" y="313" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2160.1400@0.0.2160.1400" timestamp="1589229399959" />
+    <state x="748" y="441" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589447930863">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state x="748" y="441" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2160.1400@0.0.2160.1400" timestamp="1589447930863" />
+    <state width="1843" height="386" key="GridCell.Tab.0.bottom" timestamp="1589451887801">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state width="1843" height="386" key="GridCell.Tab.0.bottom/0.0.2160.1400@0.0.2160.1400" timestamp="1589451887801" />
+    <state width="1843" height="386" key="GridCell.Tab.0.center" timestamp="1589451887801">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state width="1843" height="386" key="GridCell.Tab.0.center/0.0.2160.1400@0.0.2160.1400" timestamp="1589451887801" />
+    <state width="1843" height="386" key="GridCell.Tab.0.left" timestamp="1589451887801">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state width="1843" height="386" key="GridCell.Tab.0.left/0.0.2160.1400@0.0.2160.1400" timestamp="1589451887801" />
+    <state width="1843" height="386" key="GridCell.Tab.0.right" timestamp="1589451887801">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state width="1843" height="386" key="GridCell.Tab.0.right/0.0.2160.1400@0.0.2160.1400" timestamp="1589451887801" />
+    <state x="459" y="256" key="SettingsEditor" timestamp="1589229376762">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state x="459" y="256" key="SettingsEditor/0.0.2160.1400@0.0.2160.1400" timestamp="1589229376762" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithmen_und_Datenstrukturen$Vorlesung_1.ic" NAME="Vorlesung 1 Coverage Results" MODIFIED="1589450091414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
