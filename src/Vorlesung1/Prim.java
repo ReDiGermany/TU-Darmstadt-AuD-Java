@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 public class Prim {
     private int[] retArr;
+
+    /**
+     * Method to calculate the Prim numbers up to the given one
+     * @param num the number to calculate up to
+     */
     public Prim(int num){
         int[] arr = new int[num];
         Arrays.fill(arr, 1);
@@ -27,9 +32,20 @@ public class Prim {
         }
         retArr = Arrays.stream(retArr).filter(e->e!=0).toArray();
     }
+
+    /**
+     * Method to return the prim number array
+     * @return
+     */
     public int[] get(){
         return retArr;
     }
+
+    /**
+     * Method to compare the current prim number array to another one
+     * @param inp
+     * @return
+     */
     public boolean equals(String inp){
         return Arrays.toString(retArr).equals(inp);
     }
