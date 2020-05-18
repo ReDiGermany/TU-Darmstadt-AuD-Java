@@ -13,6 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
+import com.sun.org.apache.bcel.internal.generic.Select;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -112,9 +113,41 @@ class Tests {
         public void MaxSort(){
             int[] A = new int[]{1,5,4,2,6,0,3};
             String comp = "[0, 1, 2, 3, 4, 5, 6]";
-//            A = new int[]{6,4,1,8,3};
-//            comp = "[1, 3, 4, 6, 8]";
             assertEquals(comp,Arrays.toString(new MaxSort(A).get()));
+        }
+
+        @Test
+        public void MinSort(){
+            int[] A = new int[]{1,5,4,2,6,0,3};
+            int[] B = new int[]{0,1,2,3,4,5,6};
+            String comp = "[0, 1, 2, 3, 4, 5, 6]";
+            assertEquals(comp,Arrays.toString(new MinSort(A).get()));
+        }
+        @Test
+        public void SelectionSort(){
+            int[] A = new int[]{1,5,4,2,6,0,3};
+            int[] B = new int[]{0,1,2,3,4,5,6};
+            String comp = "[0, 1, 2, 3, 4, 5, 6]";
+            A = new int[]{6,4,1,8,3};
+            comp = "[1, 3, 4, 6, 8]";
+            assertEquals(comp,Arrays.toString(new SelectionSort(A).get()));
+
+        }
+        @Test
+        public void QuickSort(){
+            int[] A = new int[]{1,5,4,2,6,0,3};
+            int[] B = new int[]{0,1,2,3,4,5,6};
+            String comp = "[0, 1, 2, 3, 4, 5, 6]";
+            assertEquals(comp,Arrays.toString(new QuickSort(A,0,A.length-1).get()));
+
+        }
+        @Test
+        public void RandomizedQuickSort(){
+            int[] A = new int[]{1,5,4,2,6,0,3};
+            int[] B = new int[]{0,1,2,3,4,5,6};
+            String comp = "[0, 1, 2, 3, 4, 5, 6]";
+            assertEquals(comp,Arrays.toString(new RandomizedQuickSort(A,0,A.length-1).get()));
+
         }
     }
 }

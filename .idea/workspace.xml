@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e75dd22-4001-40b7-b4ea-081dfd65ae77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vorlesung2/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/MergeSort.java" afterDir="false" />
+    <list default="true" id="0e75dd22-4001-40b7-b4ea-081dfd65ae77" name="Default Changelist" comment="Added Vorlesung 2 &amp; 3&#10;Commented all methods">
+      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/MaxSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/MinSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/RandomizedQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/Vorlesung1/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/Vorlesung1/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/Vorlesung1/Prim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/Vorlesung1/Prim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/Vorlesung1/Summe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/Vorlesung1/Summe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/Vorlesung1/Vorlesung1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vorlesung1/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlesung1/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vorlesung1/Prim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlesung1/Prim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vorlesung1/Summe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlesung1/Summe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vorlesung1/Vorlesung1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,35 +53,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
-    <configuration name="Test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
-      <module name="Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vorlesung 1" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Vorlesung1.Vorlesung1" />
-      <module name="Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vorlesung 2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Vorlesung2.Vorlesung2" />
-      <module name="Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vorlesung 3" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Vorlesung3.Vorlesung3" />
-      <module name="Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Code" />
       <useClassPathOnly />
@@ -101,13 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Vorlesung 1" />
-      <item itemvalue="Application.Vorlesung 2" />
-      <item itemvalue="Application.Vorlesung 3" />
-      <item itemvalue="JUnit.Tests" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -120,17 +78,52 @@
       <option name="presentableId" value="Default" />
       <updated>1589229163347</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Vorlesung 2 &amp; 3&#10;Commented all methods">
+      <created>1589810738222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589810738222</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Vorlesung 2 &amp; 3&#10;Commented all methods">
+      <created>1589810774839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589810774839</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added ReDiArray to make life a bit easier">
+      <created>1589813224753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589813224753</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added debugger to ReDiArray.swap">
+      <created>1589816116089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589816116089</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Vorlesung 2 &amp; 3&#10;Commented all methods" />
+    <MESSAGE value="Added ReDiArray to make life a bit easier" />
+    <MESSAGE value="Added debugger to ReDiArray.swap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added debugger to ReDiArray.swap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="573" y="275" key="#Project_Structure" timestamp="1589229289755">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
     <state x="573" y="275" key="#Project_Structure/0.0.2160.1400@0.0.2160.1400" timestamp="1589229289755" />
-    <state x="536" y="348" width="1200" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589809507578">
+    <state x="536" y="348" width="1200" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589812385731">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state x="536" y="348" width="1200" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1400@0.0.2160.1400" timestamp="1589809507578" />
+    <state x="536" y="348" width="1200" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1400@0.0.2160.1400" timestamp="1589812385731" />
     <state x="622" y="313" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1589229399959">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
@@ -143,30 +136,34 @@
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
     <state x="817" y="589" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2160.1400@0.0.2160.1400" timestamp="1589484484090" />
-    <state x="635" y="223" key="CommitChangelistDialog2" timestamp="1589810737072">
+    <state x="635" y="223" key="CommitChangelistDialog2" timestamp="1589816114880">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state x="635" y="223" key="CommitChangelistDialog2/0.0.2160.1400@0.0.2160.1400" timestamp="1589810737072" />
-    <state width="1836" height="377" key="GridCell.Tab.0.bottom" timestamp="1589810622082">
+    <state x="635" y="223" key="CommitChangelistDialog2/0.0.2160.1400@0.0.2160.1400" timestamp="1589816114880" />
+    <state width="1836" height="377" key="GridCell.Tab.0.bottom" timestamp="1589817363682">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state width="1836" height="377" key="GridCell.Tab.0.bottom/0.0.2160.1400@0.0.2160.1400" timestamp="1589810622082" />
-    <state width="1836" height="377" key="GridCell.Tab.0.center" timestamp="1589810622082">
+    <state width="1836" height="377" key="GridCell.Tab.0.bottom/0.0.2160.1400@0.0.2160.1400" timestamp="1589817363682" />
+    <state width="1836" height="377" key="GridCell.Tab.0.center" timestamp="1589817363682">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state width="1836" height="377" key="GridCell.Tab.0.center/0.0.2160.1400@0.0.2160.1400" timestamp="1589810622082" />
-    <state width="1836" height="377" key="GridCell.Tab.0.left" timestamp="1589810622082">
+    <state width="1836" height="377" key="GridCell.Tab.0.center/0.0.2160.1400@0.0.2160.1400" timestamp="1589817363682" />
+    <state width="1836" height="377" key="GridCell.Tab.0.left" timestamp="1589817363682">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state width="1836" height="377" key="GridCell.Tab.0.left/0.0.2160.1400@0.0.2160.1400" timestamp="1589810622082" />
-    <state width="1836" height="377" key="GridCell.Tab.0.right" timestamp="1589810622082">
+    <state width="1836" height="377" key="GridCell.Tab.0.left/0.0.2160.1400@0.0.2160.1400" timestamp="1589817363682" />
+    <state width="1836" height="377" key="GridCell.Tab.0.right" timestamp="1589817363682">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state width="1836" height="377" key="GridCell.Tab.0.right/0.0.2160.1400@0.0.2160.1400" timestamp="1589810622082" />
+    <state width="1836" height="377" key="GridCell.Tab.0.right/0.0.2160.1400@0.0.2160.1400" timestamp="1589817363682" />
     <state x="459" y="256" key="SettingsEditor" timestamp="1589229376762">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
     <state x="459" y="256" key="SettingsEditor/0.0.2160.1400@0.0.2160.1400" timestamp="1589229376762" />
+    <state x="573" y="368" key="Vcs.Push.Dialog.v2" timestamp="1589810787350">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state x="573" y="368" key="Vcs.Push.Dialog.v2/0.0.2160.1400@0.0.2160.1400" timestamp="1589810787350" />
     <state x="731" y="573" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589808591025">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
@@ -175,6 +172,10 @@
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
     <state x="829" y="597" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2160.1400@0.0.2160.1400" timestamp="1589810756271" />
+    <state x="653" y="327" key="run.anything.popup" timestamp="1589812994472">
+      <screen x="0" y="0" width="2160" height="1400" />
+    </state>
+    <state x="653" y="327" key="run.anything.popup/0.0.2160.1400@0.0.2160.1400" timestamp="1589812994472" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algorithmen_und_Datenstrukturen$Vorlesung_1.ic" NAME="Vorlesung 1 Coverage Results" MODIFIED="1589450091414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
