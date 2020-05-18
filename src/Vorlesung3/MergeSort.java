@@ -1,10 +1,10 @@
 package Vorlesung3;
 
+import Basic.ReDiArray;
+
 import java.util.Arrays;
 
-public class MergeSort {
-    private int[] A;
-
+public class MergeSort extends ReDiArray {
     /**
      * Algorithm implementation for Merge Sort as officially defined.
      * @param A the input array
@@ -63,22 +63,5 @@ public class MergeSort {
         for(int k=p;k<(r+1);k++)
             if (L[i] <= R[j]) A[k] = L[i++];
             else A[k] = R[j++];
-    }
-
-    /**
-     * Method to get the current Array
-     * @return the current array
-     */
-    public int[] get(){
-        return A;
-    }
-
-    /**
-     * Method to compare the current array with another on
-     * @param inp the other array to compare  to
-     * @return true if its the same
-     */
-    public boolean equals(String inp){
-        return Arrays.toString(A).equals(inp);
     }
 }

@@ -92,17 +92,29 @@ class Tests {
     }
     @Nested
     class Vorlesung3 {
+        @Nested
+        class Vorlesung3_MergeSort{
+            @Test
+            public void MergeSortShort(){
+                int[] A = new int[]{1,5,4,2,6,0,3};
+                String comp = "[0, 1, 2, 3, 4, 5, 6]";
+                assertEquals(Arrays.toString(new MergeSort(A,0,A.length-1).get()),comp);
+            }
+            @Test
+            public void MergeSortLong(){
+                int[] A = new int[]{59,22,27,8,42,18,29,34,1,44,15,17,16,7,36,11,53,9,26,12,24,21,4,41,51,37,52,49,48,25,23,38,47,30,14,55,3,54,19,33,58,35,32,39,46,2,56,20,5,50,45,57,40,28,0,31,10,6,13,43};
+                String comp = "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]";
+                assertEquals(Arrays.toString(new MergeSort(A,0,A.length-1).get()),comp);
+            }
+        }
+
         @Test
-        public void MergeSortShort(){
+        public void MaxSort(){
             int[] A = new int[]{1,5,4,2,6,0,3};
             String comp = "[0, 1, 2, 3, 4, 5, 6]";
-            assertEquals(Arrays.toString(new MergeSort(A,0,A.length-1).get()),comp);
-        }
-        @Test
-        public void MergeSortLong(){
-            int[] A = new int[]{59,22,27,8,42,18,29,34,1,44,15,17,16,7,36,11,53,9,26,12,24,21,4,41,51,37,52,49,48,25,23,38,47,30,14,55,3,54,19,33,58,35,32,39,46,2,56,20,5,50,45,57,40,28,0,31,10,6,13,43};
-            String comp = "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]";
-            assertEquals(Arrays.toString(new MergeSort(A,0,A.length-1).get()),comp);
+//            A = new int[]{6,4,1,8,3};
+//            comp = "[1, 3, 4, 6, 8]";
+            assertEquals(comp,Arrays.toString(new MaxSort(A).get()));
         }
     }
 }

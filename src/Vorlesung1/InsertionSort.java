@@ -1,10 +1,8 @@
 package Vorlesung1;
 
-import java.util.Arrays;
+import Basic.ReDiArray;
 
-public class InsertionSort {
-    int[] A;
-
+public class InsertionSort extends ReDiArray {
     /**
      * Method for the Insertion Sort algorithm as officially defined
      * @param Ainp Input integer Array
@@ -20,22 +18,5 @@ public class InsertionSort {
             }
             A[i+1]=key;
         }
-    }
-
-    /**
-     * Method to get the current Array
-     * @return the current Array
-     */
-    public int[] get(){
-        return A;
-    }
-
-    /**
-     * Method to compare the current Array with a String Array
-     * @param inp the Array to compare to
-     * @return true if its the same
-     */
-    public boolean equals(String inp){
-        return Arrays.toString(A).equals(inp);
     }
 }
