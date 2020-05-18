@@ -3,6 +3,10 @@ package Vorlesung3;
 import Basic.ReDiArray;
 
 public class SelectionSort extends ReDiArray {
+    /**
+     * Method to show selection sort. What it does? dunno, lol
+     * @param A input array
+     */
     public SelectionSort(int[] A){
         this.A = A;
 //        debug();

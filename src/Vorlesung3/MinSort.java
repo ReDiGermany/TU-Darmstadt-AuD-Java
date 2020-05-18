@@ -3,6 +3,10 @@ package Vorlesung3;
 import Basic.ReDiArray;
 
 public class MinSort extends ReDiArray {
+    /**
+     * Method implements MinSort algorithm as officially defined.
+     * @param A the input array
+     */
     public MinSort(int[] A){
         this.A = A;
         int pos = 0;

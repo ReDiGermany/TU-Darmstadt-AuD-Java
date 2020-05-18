@@ -22,6 +22,10 @@ public class ReDiArray {
     }
 
     private boolean log=false;
+
+    /**
+     * Method to enable the debug.
+     */
     public void debug(){log=true;}
 
     /**

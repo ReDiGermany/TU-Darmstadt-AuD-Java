@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e75dd22-4001-40b7-b4ea-081dfd65ae77" name="Default Changelist" comment="Added Vorlesung 2 &amp; 3&#10;Commented all methods">
-      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/MaxSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/MinSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/RandomizedQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vorlesung3/SelectionSort.java" afterDir="false" />
+    <list default="true" id="0e75dd22-4001-40b7-b4ea-081dfd65ae77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic/ReDiArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/ReDiArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vorlesung3/MinSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlesung3/MinSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vorlesung3/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlesung3/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vorlesung3/RandomizedQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlesung3/RandomizedQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vorlesung3/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlesung3/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +105,22 @@
       <option name="project" value="LOCAL" />
       <updated>1589816116089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Vorlesung 3 Algorithmen">
+      <created>1589817394335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589817394335</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Vorlesung 2 &amp; 3&#10;Commented all methods" />
     <MESSAGE value="Added ReDiArray to make life a bit easier" />
     <MESSAGE value="Added debugger to ReDiArray.swap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added debugger to ReDiArray.swap" />
+    <MESSAGE value="Added Vorlesung 3 Algorithmen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Vorlesung 3 Algorithmen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="573" y="275" key="#Project_Structure" timestamp="1589229289755">
@@ -136,26 +143,26 @@
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
     <state x="817" y="589" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2160.1400@0.0.2160.1400" timestamp="1589484484090" />
-    <state x="635" y="223" key="CommitChangelistDialog2" timestamp="1589816114880">
+    <state x="635" y="223" key="CommitChangelistDialog2" timestamp="1589817393468">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state x="635" y="223" key="CommitChangelistDialog2/0.0.2160.1400@0.0.2160.1400" timestamp="1589816114880" />
-    <state width="1836" height="377" key="GridCell.Tab.0.bottom" timestamp="1589817363682">
+    <state x="635" y="223" key="CommitChangelistDialog2/0.0.2160.1400@0.0.2160.1400" timestamp="1589817393468" />
+    <state width="1836" height="377" key="GridCell.Tab.0.bottom" timestamp="1589817552799">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state width="1836" height="377" key="GridCell.Tab.0.bottom/0.0.2160.1400@0.0.2160.1400" timestamp="1589817363682" />
-    <state width="1836" height="377" key="GridCell.Tab.0.center" timestamp="1589817363682">
+    <state width="1836" height="377" key="GridCell.Tab.0.bottom/0.0.2160.1400@0.0.2160.1400" timestamp="1589817552799" />
+    <state width="1836" height="377" key="GridCell.Tab.0.center" timestamp="1589817552798">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state width="1836" height="377" key="GridCell.Tab.0.center/0.0.2160.1400@0.0.2160.1400" timestamp="1589817363682" />
-    <state width="1836" height="377" key="GridCell.Tab.0.left" timestamp="1589817363682">
+    <state width="1836" height="377" key="GridCell.Tab.0.center/0.0.2160.1400@0.0.2160.1400" timestamp="1589817552798" />
+    <state width="1836" height="377" key="GridCell.Tab.0.left" timestamp="1589817552798">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state width="1836" height="377" key="GridCell.Tab.0.left/0.0.2160.1400@0.0.2160.1400" timestamp="1589817363682" />
-    <state width="1836" height="377" key="GridCell.Tab.0.right" timestamp="1589817363682">
+    <state width="1836" height="377" key="GridCell.Tab.0.left/0.0.2160.1400@0.0.2160.1400" timestamp="1589817552798" />
+    <state width="1836" height="377" key="GridCell.Tab.0.right" timestamp="1589817552798">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
-    <state width="1836" height="377" key="GridCell.Tab.0.right/0.0.2160.1400@0.0.2160.1400" timestamp="1589817363682" />
+    <state width="1836" height="377" key="GridCell.Tab.0.right/0.0.2160.1400@0.0.2160.1400" timestamp="1589817552798" />
     <state x="459" y="256" key="SettingsEditor" timestamp="1589229376762">
       <screen x="0" y="0" width="2160" height="1400" />
     </state>
